@@ -1,0 +1,428 @@
+@media all and (max-width:990px){
+	.header-up{
+		display: none;
+	}
+
+	.silder-single {
+		padding-top: 120px;
+		padding-bottom: 80px;
+	}
+	.widget-side-bar {
+		margin: -;
+		margin-top: 30px;
+	}
+}
+@media all and (min-width:990px){
+.team-box {
+	margin-top: 10px;
+}
+
+}
+
+@media all and (max-width:991px){
+.header-area {
+	overflow: hidden;
+}
+.header .nav-menu{
+	position: fixed;
+	right:-280px;
+	width: 280px;
+	visibility: hidden;
+	height: 100%;
+	overflow-y: auto;
+	background: #222222;
+	top: 0;
+	z-index: 1000;
+	padding: 15px 0px;
+	transition:all 0.5s ease;
+}
+.header .nav-menu.open{
+	visibility: visible;
+	right: 0px;
+}
+.header .menu > .menu-iteam{
+	display: block;
+	margin:0;
+}
+.header .menu > .menu-iteam a{
+	color:white;
+	padding:12px 15px;
+	border-bottom: 1px solid #333333;
+}
+.header .menu > .menu-iteam:first-child >a{
+	border-top: 1px solid #333333;
+}
+.header .menu > .menu-iteam-has-childrean > a{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header .menu > .menu-iteam a .plus:before,
+.header .menu > .menu-iteam a .plus:after{
+	background:white;
+}
+
+.header .menu > .menu-iteam-has-childrean.active > a .plus:after{
+	transform: translate(-50%,-50%) rotate(0deg);
+}
+.header .menu > .menu-iteam >.submenu{
+	width: 100%;
+	position: relative;
+	opacity: 1;
+	visibility: visible;
+	border:none;
+	background-color: transparent;
+	box-shadow: noen;
+	transform: translateY(0px);
+	left: auto;
+	top: auto;
+	padding: 0;
+	max-height:0;
+	transition: all 0.3s ease;
+	overflow:hidden;
+}
+.header .menu > .menu-iteam >.submenu >.menu-iteam a{
+	padding:12px 45px;
+	color: white;
+	border-bottom: 1px solid #333333;
+}
+.header .menu > .menu-iteam >.submenu{
+	width: 100%;
+}
+.header .open-nav-menu{
+	display: flex;
+}
+.header .close-nav-menu,
+.header .open-nav-menu{
+	display: flex;
+}
+.slider-single-full {
+text-align: center;
+}
+.slider-single-full p{
+	margin: 0 auto;
+	width: 100%;
+}
+.slider-single-full h2 {
+	font-size: 42px;
+	font-weight:bold;
+	width: 80%;
+}
+
+.section-padding {
+	padding: 50px 0px;
+}
+.single-service {
+	display: block;
+	padding-top: 29px;
+}
+.single-service span {
+	height: 89px;
+	width: 93px;
+}
+
+.service-text {
+	padding-left: 0px;
+	padding-top: 30px;
+}
+.section-heading h2 {
+	font-size: 21px;
+}
+.accordion{
+	margin-top: 25px;
+}
+.support-title h2 {
+	font-size: 34px;
+	line-height: 52px;
+}
+.button a {
+	width: 164px;
+}
+.button a span {
+	font-size: 14px;
+}
+.team-box {
+	position: relative;
+	width: 100%px;
+	height: 330px;
+	background: #ECBE4B;
+	margin-bottom: 25px;
+}
+.single-client .owl-prev, .single-client .owl-next {
+	top: -110px;
+}
+.single-client .owl-prev {
+	right: 46px;
+}
+
+.single-client .owl-next {
+	right: -3px;
+}
+.client-text p {
+	font-size: 15px;
+	width: 100%;
+}
+.client-text {
+	padding-left: 10px;
+	margin-top: 21px;
+}
+.counter-headline {
+	text-align: center;
+}
+.count-single {
+	text-align: center;
+}
+.box-content {
+	margin-bottom: 20px;
+}
+.skill-content {
+	margin-top: 90px;
+}
+.single-project {
+	width: 47%;
+}
+.single-client .owl-nav {
+	display: none;
+}
+.support-title h2 {
+	font-size: 29px;
+	line-height: 51px;
+}
+.map-area{
+	margin-top: 80px;
+}
+}
+
+
+
+@media all and (max-width: 767px){
+.slider-single-full h2 {
+	font-size: 32px;
+	font-weight:bold;
+}
+.slider-single-full p {
+	font-size: 16px;
+	width: 80%;
+}
+.button a span {
+	font-size: 15px;
+}
+.slider-area-full .owl-dots {
+
+	display:none;
+}
+.support-title h2 {
+	font-size: 30px;
+	line-height: 48px;
+	width: 100%;
+}
+.button-2 {
+	margin-top: 10px;
+}
+
+.button-2 a {
+	margin-left: 0;
+}
+.single-client .owl-nav {
+	display: none;
+}
+.d-none {
+	display: block !important;
+}
+.pt-60 {
+	padding-top: 0px;
+}
+.blog-single {
+	margin-bottom: 24px;
+}
+.text-end {
+	text-align: start !important;
+}
+.ft-head {
+	padding: 10px 0px;
+}
+.box-content {
+	margin-bottom: 20px;
+}
+.Pricing-table {
+	margin: 10px 0px;
+}
+.Pricing-table2 {
+	margin: 10px 0px;
+}
+.need-help-area {
+	padding-top: 25px;
+}
+.work-slider .owl-nav {
+	display: none;
+}
+.single-project2 {
+	width: 100%;
+}
+.project-menu ul {
+	 display:block;
+}
+.project-menu ul li {
+	margin: 5px 3px;
+}
+.single-project {
+	width:100%;
+}
+
+.contact-head {
+	padding: 60px 0!important;
+}
+.head-text h2 {
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.pb-80 {
+	padding-bottom: 50px;
+}
+.client-img2 {
+	margin: 15px;
+}
+.client-text2 {
+	margin: 15px;
+}
+}
+
+@media all and (max-width:450px){
+.silder-single {
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+.section-heading h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+.service-text p {
+	font-weight: 400;
+	color: #6c6a6a;
+	font-size: 14px;
+	line-height: 25px;
+}
+.single-service span i {
+	color: white;
+	font-size: 20px;
+}
+.single-service span {
+	height: 56px;
+	width: 56px;
+}
+.service-text {
+	padding-left: 6px;
+	padding-top: 19px;
+}
+.support-title h2 {
+	font-size: 22px;
+	line-height: 38px;
+	width: 100%;
+}
+.support-title h5 {
+	font-size: 18px;
+}
+.pb-80 {
+	padding-bottom: 40px;
+}
+.pt-80 {
+	padding-top: 40px;
+}
+.button a span {
+	font-size: 14px;
+}
+.button a span {
+	font-size: 14px;
+}
+.single-client .owl-nav {
+	display: none;
+}
+.pt-60 {
+	padding-top: 0px;
+}
+.client-img img {
+	margin: 0;
+}
+.counter-headline {
+	font-size: 39px;
+	padding-top: 48px;
+	padding-bottom: 26px;
+}
+.count-single h3 {
+	font-size: 30px;
+}
+.count-single p {
+	font-size: 16px;
+}
+.blog-text h4 a {
+	font-size: 21px;
+}
+.blog-text h4 {
+	padding: 15px 0px;
+}
+.card-body h2 {
+	font-size: 24px;
+}
+.head-text h2 {
+	font-size: 40px;
+}
+
+
+.collapsed {
+	font-size: 15px;
+	font-weight: bold;
+}
+.Pricing-head h3 {
+	font-size: 16px;
+}
+.Pricing-amount h2 {
+	font-size: 50px;
+}
+.Pricing-amount p {
+	font-size: 21px;
+}
+.Pricing-body ul li {
+	font-size: 14px;
+}
+
+.Pricing-head2 {
+	padding: 12px;
+}
+.Pricing-amount2 h2 {
+	font-size: 50px;
+}
+.Pricing-amount2 p {
+	font-size: 20px;
+}
+.Pricing-amount2 {
+	padding: 5px;
+}
+.project-menu ul {
+	 display:block;
+}
+.project-menu ul li {
+	font-size: 14px;
+	margin: 5px 3px;
+}
+.Pricing-head2 h3 {
+	font-size: 17px;
+}
+.Pricing-body2 ul li {
+	padding: 12px;
+	border-bottom: 1px solid #E9E9E9;
+	font-size: 15px;
+}
+.contact-head {
+	padding: 40px 0 !important;
+}
+.head-text h2 {
+	margin-bottom: 15px;
+	font-size: 36px;
+}
+
+}
